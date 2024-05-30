@@ -1,0 +1,8 @@
+---
+serviceAccount:
+  annotations: {}
+    # TODO: add a role here
+
+env:
+  REDIS_URL: test.j3pcoa.0001.use1.cache.amazonaws.com:6379
+  BUCKET: lemontech-test-bucket
